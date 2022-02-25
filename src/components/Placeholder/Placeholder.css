@@ -1,0 +1,28 @@
+.Placeholder {
+  text-align: center;
+}
+
+.Placeholder-logo {
+  height: 80px;
+  animation: Placeholder-logo-spin infinite 20s linear;
+  animation-play-state: paused;
+}
+.Placeholder-logo.animating {
+  animation-play-state: running;
+}
+
+
+.Placeholder-header {
+  background-color: #222;
+  padding: 20px;
+  color: white;
+}
+
+.Placeholder-intro {
+  font-size: large;
+}
+
+@keyframes Placeholder-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
